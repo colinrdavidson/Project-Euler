@@ -2,6 +2,11 @@
 Problem 1:
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 Find the sum of all the multiples of 3 or 5 below 1000.
+
+We find the largest multiple of each 3, 5, and 3*5=15 less than 1000.
+Find the number of multiples in the range for each factor.
+Find multiple*(sum from 1 to the number of multiple) for each.
+Add the sum for 3 and 5 then subtract the multiple of 15 for double counts.
 """
 
 mult1 = 3 #lowest multiple
